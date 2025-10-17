@@ -4,7 +4,7 @@ import time
 app = Flask(__name__)
 app.secret_key = 'Gaius_Tempus_Maximus_secretum'
 
-FLAG = "Chronos{R0m4_N0_S3_C0nstruy0_3n_Un_D1a}"
+FLAG = "CHRONOSCTF{flag_descubierta_R0m4_N0_S3_C0nstruy0_3n_Un_D1a}"
 
 # (Las plantillas HTML con el estilo romano se mantienen exactamente igual que antes)
 # ... (template_normal y template_admin van aquí) ...
