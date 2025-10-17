@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="la">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archivum Legionis - ChronosCTF</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+
+        body {
+            background-color: #f0e6d2; /* Color pergamino viejo */
+            color: #3a2d1d;
+            font-family: 'Times New Roman', serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            background-image: url('https://www.transparenttextures.com/patterns/old-wall.png'); /* Textura sutil */
+        }
+
+        .container {
+            border: 4px solid #8c4b31;
+            padding: 2em 3em;
+            background-color: #fffaf0;
+            box-shadow: 0 0 20px rgba(0,0,0,0.6);
+            max-width: 700px;
+            border-radius: 5px;
+        }
+
+        h1 {
+            font-family: 'Cinzel', serif; /* Fuente con estilo imperial romano */
+            color: #7a2e21;
+            font-size: 2.5em;
+            border-bottom: 2px solid #8c4b31;
+            padding-bottom: 10px;
+            margin-bottom: 0.5em;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            font-style: italic;
+            color: #5e4a33;
+        }
+
+        .login-form {
+            margin-top: 30px;
+        }
+
+        .login-form input {
+            padding: 12px;
+            margin: 8px;
+            border: 2px solid #8c4b31;
+            background-color: #f0e6d2;
+            font-family: 'Times New Roman', serif;
+            width: 250px;
+        }
+
+        .login-form button {
+            padding: 12px 25px;
+            background-color: #7a2e21;
+            color: #fffaf0;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            font-family: 'Cinzel', serif;
+            font-size: 1em;
+            transition: background-color 0.3s;
+        }
+        
+        .login-form button:hover {
+            background-color: #5a2118;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>PORTA DE MINERVA</h1>
+        <p>
+            Hic est aditus ad archiva militaria Imperii. Soli centuriones et scribae auctoritate praediti aditum habent. Si alienus es, statim discede aut legibus militaribus subiacebis.
+        </p>
+        
+        <div class="login-form">
+            <input type="text" placeholder="Nomen Centurionis" aria-label="Nombre de Usuario">
+            <input type="password" placeholder="Tessera Secreta" aria-label="Contraseña">
+            <button type="button" onclick="alert('ACCESO DENEGADO: Credenciales incorrectas.')">Ingredi</button>
+            <!--ChronosCTF{DuocUC_B4ckup!}-->
+        </div>
+    </div>
+
+</body>
+</html>
